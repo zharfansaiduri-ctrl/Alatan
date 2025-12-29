@@ -645,8 +645,8 @@
 
         async function loadAttendanceData() {
             try {
-                console.log('Loading attendance data from:', API_ENDPOINT);
-                const response = await fetch(`${API_ENDPOINT}?action=getAttendance`, {
+                console.log('Loading attendance data from:', ENDPOINT);
+                const response = await fetch(`${ENDPOINT}?action=getAttendance`, {
                     method: 'GET',
                     redirect: 'follow'
                 });
